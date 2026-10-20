@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML tapşırığı: cədvəllər və siyahılar</title>
+</head>
+<body>
+
+  <h1>HTML tapşırığı: cədvəllər və siyahılar</h1>
+  <p>Bu səhifədə cədvəl və siyahı teqləri ilə hazırlanmış nümunələr var.</p>
+
+  <hr>
+
+  <!-- ========== CƏDVƏL 1 ========== -->
+  <h2>1. Cədvəl: IT mütəxəssisləri</h2>
+
+  <table border="1" cellpadding="6" cellspacing="0">
+    <caption>7 nəfərin ixtisası və təxmini aylıq maaşı (AZN)</caption>
+
+    <thead>
+      <tr>
+        <th>№</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>İxtisas</th>
+        <th>Aylıq maaş (AZN)</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Xedice</td>
+        <td>Huseynova</td>
+        <td>Software Engineer</td>
+        <td>2800</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Leyla</td>
+        <td>Hüseynova</td>
+        <td>Frontend developer</td>
+        <td>1900</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Hurnise</td>
+        <td>Əliyeva</td>
+        <td>Data analitik</td>
+        <td>2200</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Riyad</td>
+        <td>Rehmanov</td>
+        <td>Backend developer</td>
+        <td>2800</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Revan</td>
+        <td>Agazade</td>
+        <td>Machine Learning mühəndisi</td>
+        <td>4000</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Kamran</td>
+        <td>Nəbiyev</td>
+        <td>Software Engineer</td>
+        <td>3200</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Inci</td>
+        <td>Elizade</td>
+        <td>Frontend developer</td>
+        <td>1700</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th colspan="4">Orta maaş</th>
+        <td>təxminən 2657</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <p>Qeyd: maaşlar təxmini nümunədir, dəqiq statistika deyil.</p>
+
+  <hr>
+
+  <!-- ========== CƏDVƏL 2 ========== -->
+  <h2>2. Cədvəl: IT sahələri</h2>
+
+  <table border="1" cellpadding="6" cellspacing="0">
+    <caption>IT sahələrinin qısa izahı</caption>
+    <thead>
+      <tr>
+        <th>Qrup</th>
+        <th>Sahə</th>
+        <th>Nə ilə məşğul olur?</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">Proqramlaşdırma</td>
+        <td>Software</td>
+        <td>Proqramlar və sistemlər yaradır</td>
+      </tr>
+      <tr>
+        <td>Frontend</td>
+        <td>Saytın istifadəçinin gördüyü hissəsini hazırlayır</td>
+      </tr>
+      <tr>
+        <td>Backend</td>
+        <td>Server və verilənlər bazası ilə işləyir</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Data</td>
+        <td>Machine Learning</td>
+        <td>Məlumatlardan öyrənən modellər qurur</td>
+      </tr>
+      <tr>
+        <td>Data analitika</td>
+        <td>Məlumatları təhlil edib hesabat hazırlayır</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <!-- ========== NÖMRƏSİZ SİYAHI ========== -->
+  <h2>3. Nömrəsiz (nizamsız) siyahı</h2>
+  <h3>Səbətdəki meyvələr</h3>
+  <ul>
+    <li>Alma</li>
+    <li>Armud</li>
+    <li>Nar</li>
+    <li>Üzüm</li>
+    <li>Heyva</li>
+  </ul>
+
+  <hr>
+
+  <!-- ========== NÖMRƏLİ SİYAHI ========== -->
+  <h2>4. Nömrəli (nizamlı) siyahı</h2>
+  <h3>Ən çox sevdiyim meyvələr</h3>
+  <ol>
+    <li>Nar</li>
+    <li>Üzüm</li>
+    <li>Alma</li>
+    <li>Armud</li>
+    <li>Heyva</li>
+  </ol>
+
+  <h3>Hərflə nömrələnmiş siyahı</h3>
+  <ol type="A">
+    <li>Şaftalı</li>
+    <li>Gilas</li>
+    <li>Əncir</li>
+  </ol>
+
+  <hr>
+
+  <!-- ========== İÇ-İÇƏ SİYAHI ========== -->
+  <h2>5. İç-içə siyahı</h2>
+  <ul>
+    <li>Meyvələr
+      <ul>
+        <li>Alma</li>
+        <li>Nar</li>
+      </ul>
+    </li>
+    <li>Tərəvəzlər
+      <ol>
+        <li>Pomidor</li>
+        <li>Xiyar</li>
+        <li>Bibər</li>
+      </ol>
+    </li>
+  </ul>
+
+</body>
+</html>
